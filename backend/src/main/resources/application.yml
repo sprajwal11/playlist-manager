@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev # Set the default profile
+
+# Common configurations for all environments
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+# Other common configurations here
